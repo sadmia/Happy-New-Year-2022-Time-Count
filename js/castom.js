@@ -37,7 +37,7 @@ if (hour_set > 6 && hour_set < 17) {
 
 function countTime() {
 
-	let setDate = new Date("29 Dec 2021 14:2:00");
+	let setDate = new Date("29 Dec 2021 14:5:00");
 	let liveTime = new Date();
 
 	let compare = setDate - liveTime;
