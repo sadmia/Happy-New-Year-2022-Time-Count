@@ -1,0 +1,129 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: arial;
+}
+
+.full-section {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+#bg-images {
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+.all-content {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	content: '';
+	left: 0;
+	top: 0;
+	background-color: #fff;
+}
+
+.images-site {
+	width: 400px;
+	margin: auto;
+	transform: translateY(-40%);
+}
+.images-site img {
+	width: 100%;
+}
+
+.all-content ul {
+	text-align: center;
+	transform: translateY(-110%);
+}
+.all-content ul li {
+	width: 120px;
+	height: 120px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	margin: 5px;
+	display: inline-block;
+	box-sizing: border-box;
+	font-size: 50px;
+	text-align: center;
+	line-height: 120px;
+	position: relative;
+}
+
+.down-txt {
+	font-size: 20px;
+	color: #000;
+	position: absolute;
+	content: '';
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: -85px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.socile-icon p {
+	text-align: center;
+	font-size: 22px;
+	margin-bottom: 10px;
+	color: #fff;
+}
+
+.full-section .socile-icon {
+	width: 100%;
+	position: absolute;
+	content: '';
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 10px;
+}
+.socile-icon a {
+	text-decoration: none;
+}
+.socile-icon a li {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	position: relative;
+}
+.socile-icon a li i {
+	position: absolute;
+	content: '';
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 20px;
+	color: #fff;
+}
+
+.text-color {
+	color: #000 !important;
+}
+.border-color {
+	border-color: #000 !important;
+}
+
+.socile-icon a li:hover {
+	border-color: #009DC0 !important;
+}
+.socile-icon a li:hover .text-color {
+	color: #009DC0 !important;
+}
+
+.color-black {
+	color: #000 !important;
+}
+.color-white {
+	color: #fff !important;
+}
+.bdr-color-black {
+	border-color: #000 !important;
+}
+.bdr-color-white {
+	border-color: #fff !important;
+}
+
