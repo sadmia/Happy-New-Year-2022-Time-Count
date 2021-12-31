@@ -19,7 +19,7 @@ let border_coler = document.querySelectorAll(".border-color");
 
 function countTime() {
 
-	let setDate = new Date("1 Jan 2022 1:00:00");
+	let setDate = new Date("1 Jan 2022 0:00:00");
 	let liveTime = new Date();
 
 	let compare = setDate - liveTime;
